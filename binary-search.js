@@ -21,7 +21,7 @@ function binarySearch(array, searchTerm) {
 	return -1;
   }
   
-  binarySearch(array)
-  console.log(array)
-  module.exports = binarySearch;
+binarySearch(array)
+console.log(array)
+module.exports = binarySearch;
   
