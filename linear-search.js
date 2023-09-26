@@ -1,17 +1,13 @@
 function linearSearch(arr, searchTerm) {
-	/*
-	 ** Check each element from start to finish
-	 ** until you find an element that matches the search term
-	 **
-	 ** Return the index of the found element
-	 */
-
 	for(let i = 0; i < arr.length; i++) {
-		let sortedlist = arr[i]
+		if (arr[i] === searchTerm) {
+			return arr.indexOf(i+1);
+	  }
 	}
-
-
-	return null;
-}
-
-module.exports = linearSearch;
+	return -1
+  }
+  
+  let x = linearSearch([1,2,3,4],2);
+  console.log(x);
+  module.exports = linearSearch;
+  

@@ -1,6 +1,6 @@
 let arr = [1, 16, 9, 2, 99, 32];
 
-console.log(arr);
+
 
 function selectionSort(arr) {
   let n = arr.length;
